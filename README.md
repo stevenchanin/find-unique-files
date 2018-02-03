@@ -12,7 +12,7 @@ We wanted to get to one "good" version and then turn syncing back on, but we wer
 
 So we were going to end up with a manual process, but it would be helpful to limit the scope of work.
 
-The intent behind this script is to take directory A ("source") and identify any identical files present somewhere in B ("destination"). Those files should be deleted (they are moved to a directory called `_delete` at the root level of source). For those files, We're going live with where they exist in the destination.
+The intent behind this script is to take directory A ("source") and identify any identical files present somewhere in B ("destination"). Those files should be deleted (they are moved to a directory called `_delete` at the root level of source). For those files, we're going live with where they exist in the destination.
 
 For files that don't have an identical copy somewhere in the destination, leave them in place on the source side so they can be manually reviewed, deleted, or moved into an appropriate location in the destination.
 
